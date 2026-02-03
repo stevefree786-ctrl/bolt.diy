@@ -1,0 +1,15 @@
+name: bolt_flutter_builder
+description: A Flutter workspace for building Expo/React apps with preview, terminal, and AI-driven code generation.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+flutter:
+  uses-material-design: true
